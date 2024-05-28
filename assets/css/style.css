@@ -863,7 +863,7 @@ a:hover {
 #hero {
   width: 100%;
   height: 100vh;
-  background: right no-repeat;
+  background-position-x: right ;
   background-size: cover;
   position: relative;
 }
@@ -945,6 +945,10 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+.dr-1 {
+  padding-top: 0.2rem !important;
+}
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
